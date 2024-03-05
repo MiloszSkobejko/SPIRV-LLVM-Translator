@@ -3934,7 +3934,7 @@ static bool transFPMaxErrorDecoration(SPIRVValue *BV, Value *V,
 bool SPIRVToLLVM::transDecoration(SPIRVValue *BV, Value *V) {
   if (transFPMaxErrorDecoration(BV, V, Context))
     return true;
-  
+
   if (!transAlign(BV, V))
     return false;
 
