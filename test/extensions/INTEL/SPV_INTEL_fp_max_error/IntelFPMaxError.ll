@@ -194,7 +194,7 @@ entry:
   %t31 = call float @llvm.fpbuiltin.ldexp.f32(float %f1, float %f2) #3
   %t32 = call float @llvm.fpbuiltin.pow.f32(float %f1, float %f2) #3
   %t33 = call float @llvm.fpbuiltin.hypot.f32(float %f1, float %f2) #3
-
+  
   ; CHECK-LLVM: call spir_func float @_Z5hypotff(float %f1, float %f2) #[[#AT5:]]
   %t34 = call float @llvm.fpbuiltin.hypot.f32(float %f1, float %f2) #4
 
