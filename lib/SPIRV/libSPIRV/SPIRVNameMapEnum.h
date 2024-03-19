@@ -650,16 +650,14 @@ template <> inline void SPIRVMap<Capability, std::string>::init() {
   add(internal::CapabilityJointMatrixPackedInt4ComponentTypeINTEL,
       "JointMatrixPackedInt4ComponentTypeINTEL");
   add(internal::CapabilityCacheControlsINTEL, "CacheControlsINTEL");
-  add(internal::CapabilityRegisterLimitsINTEL, "RegisterLimitsINTEL");
 }
 SPIRV_DEF_NAMEMAP(Capability, SPIRVCapabilityNameMap)
 
 template <>
-inline void
-SPIRVMap<internal::InternalNamedMaximumNumberOfRegisters, std::string>::init() {
-  add(internal::NamedMaximumNumberOfRegistersAutoINTEL, "AutoINTEL");
+inline void SPIRVMap<NamedMaximumNumberOfRegisters, std::string>::init() {
+  add(NamedMaximumNumberOfRegistersAutoINTEL, "AutoINTEL");
 }
-SPIRV_DEF_NAMEMAP(internal::InternalNamedMaximumNumberOfRegisters,
+SPIRV_DEF_NAMEMAP(NamedMaximumNumberOfRegisters,
                   SPIRVNamedMaximumNumberOfRegistersNameMap);
 
 } /* namespace SPIRV */
