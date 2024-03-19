@@ -623,6 +623,12 @@ template <> inline void SPIRVMap<Capability, std::string>::init() {
   add(CapabilityMax, "Max");
   add(CapabilityFPGAArgumentInterfacesINTEL, "FPGAArgumentInterfacesINTEL");
   add(CapabilityFPGALatencyControlINTEL, "FPGALatencyControlINTEL");
+  // git test
+  // git test2
+ // testing other merging methods
+  // testing other merging methods 2
+    // testing other merging methods 3
+
   // From spirv_internal.hpp
   add(internal::CapabilityFastCompositeINTEL, "FastCompositeINTEL");
   add(internal::CapabilityOptNoneINTEL, "OptNoneINTEL");
@@ -649,6 +655,8 @@ template <> inline void SPIRVMap<Capability, std::string>::init() {
       "JointMatrixPackedInt4ComponentTypeINTEL");
   add(internal::CapabilityCacheControlsINTEL, "CacheControlsINTEL");
 }
+  // git test3
+  // git test5
 SPIRV_DEF_NAMEMAP(Capability, SPIRVCapabilityNameMap)
 
 } /* namespace SPIRV */
