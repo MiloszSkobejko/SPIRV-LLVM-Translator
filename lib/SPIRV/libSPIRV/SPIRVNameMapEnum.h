@@ -625,7 +625,6 @@ template <> inline void SPIRVMap<Capability, std::string>::init() {
   add(CapabilityFPGAArgumentInterfacesINTEL, "FPGAArgumentInterfacesINTEL");
   add(CapabilityFPGALatencyControlINTEL, "FPGALatencyControlINTEL");
   add(CapabilityFPMaxErrorINTEL, "FPMaxErrorINTEL");
-  add(CapabilityRegisterLimitsINTEL, "RegisterLimitsINTEL");
   // From spirv_internal.hpp
   add(internal::CapabilityFastCompositeINTEL, "FastCompositeINTEL");
   add(internal::CapabilityOptNoneINTEL, "OptNoneINTEL");
